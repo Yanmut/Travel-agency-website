@@ -1,0 +1,118 @@
+<!DOCTYPE htm>
+<html>
+<head>
+<meta name="viewport" content="with=device-width">
+<title>Yannis' Travel Agency</title>
+<link rel="stylesheet" href="Stylesheet1.css">
+</head>
+<body>
+<section id="Home" class="head">
+<ul class="nav">
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Tours">Tours</a></li>
+    <li><a href="#About">About us</a></li>
+    <li><a href="#Contact">Contact</a></li>   
+</ul>
+<h1 class="header" style="font-family: Georgia, 'Times New Roman', Times, serif; color: white;">Your Dream Vacation Awaits</h1>
+<p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; color: white;">Explore the world with us</p>
+<div class="search">
+<form action="https://www.tripadvisor.com/search" target="_blank" class="searchbar">
+<input type="text" placeholder="Find your destination" name="q">
+<button type="submit"><img src="SearchIcon.png"></button>
+</form>
+</div>
+<div class="disc">
+<ul class="discover">
+    <form>
+    <li style="text-decoration: underline; text-decoration-color: white;"><a href="https://www.tripadvisor.com/CheapFlightsHome" target="_blank">Flights</a></li>
+    <li><a href="https://www.tripadvisor.com/Hotels" target="_blank">Hotels</a></li>
+    <li><a href="https://www.tripadvisor.com/Restaurants" target="_blank">Food</a></li>
+    </form>
+</ul>
+</div>
+</section>
+
+<section id="Tours" class="part1">
+    <h1 style="text-align: center;">Popular Destination</h1>
+    <div class="page-container">
+    <div class="box-container">
+        <div class="box">
+            <img src="venice.jpg" alt="venice" class="card-img">
+            <div class="card-content">
+            <h3 class="cities">Venice</h3>
+            <p>The famous city known for its beautiful canals, stunning architecture and rich story.<br><span>$239</span></p>
+            <button class="card-btn" onclick="window.open('https://www.tripadvisor.com/Tourism-g187870-Venice_Veneto-Vacations.html','_blank')">Visit</button>
+            </div>
+       </div>  
+        <div class="box">
+            <img src="Dubai.jpg" alt="Dubai" class="card-img">
+            <div class="card-content">
+            <h3 class="cities">Dubai</h3>
+            <p>A paradise for tourists with stunning architecture, skyscrapers, giant shopping malls and fancy hotels.<br><span>$499</span></p>
+            <button class="card-btn" onclick="window.open('https://www.tripadvisor.com/Tourism-g295424-Dubai_Emirate_of_Dubai-Vacations.html','_blank')">Visit</button>
+        </div>
+        </div> 
+        <div class="box">
+            <img src="Tahiti.jpg" alt="Tahiti" class="card-img">
+            <div class="card-content">
+            <h3 class="cities">Tahiti</h3>
+            <p class="card text">The island, with an area of 403 square miles, accounts for almost one-third of the total land of french Polynesia.<br><span>$199</span></p>
+            <button class="card-btn" onclick="window.open('https://www.tripadvisor.com/Tourism-g309679-Tahiti_Society_Islands-Vacations.html','_blank')">Visit</button>
+        </div>
+        </div>  
+    </div>
+    </div>
+    <div class="see-more">
+        <a href="https://www.tripadvisor.com/TravelersChoice" target="_blank">See More</a>
+    </div>
+</section>
+
+<section id="About">
+    <div class="About-text">
+    <h1>About us</h1>
+    <p>We are a traveling company that works in collaboration with TripAdvisor to offer you the most affordable and enjoyable travelling experience. We believe that travelling is not just a hobby but a transformative journey that opens your eyes to the wonders of the world and enriches your understanding of diverse cultures.</p>
+    </div>
+</section>
+<section class="infos">
+<h1 class="service-heading">Our Services</h1>
+<section class="services">
+        <div class="service">
+          <img src="plane.jpg" alt="Customized Itineraries">
+          <h3>Customized Itineraries</h3>
+          <p>We offer personalized and tailor-made travel itineraries to suit the unique preferences and interests of each traveler.</p>
+        </div>
+        <div class="service">
+          <img src="people.jpg" alt="Guided Group Tours">
+          <h3>Guided Group Tours</h3>
+          <p>For travelers who enjoy camaraderie and shared experiences, we organize guided group tours to carefully selected destinations worldwide. </p>
+        </div>
+        <div class="service">
+          <img src="money.jpg" alt="Travel Concierge Services">
+          <h3>Exclusive Deals and Offers</h3>
+          <p>We value our loyal customers and frequently offer exclusive travel deals and promotions to make your dreams vacation more affordable.</p>
+        </div>
+      </section>
+</section>
+</section>
+<section id="Contact">
+    <div class="contact-text">
+    <h1>Contact Us</h1>
+    <p>Get in touch with us today! Our team is here to anszer any questions you may have and help you with your needs. Simply fill out the form below with your name, email and message, and we'll be in touch shortly. We're excited to hear from you and help you achieve your social media goals.</p>
+    </div>
+    <form class="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+</section>
+
+
+</body>
+</html>
